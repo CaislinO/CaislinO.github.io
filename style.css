@@ -247,7 +247,112 @@ h2 { font-family: Lato; font-size: 11px; font-style: normal; font-variant: norma
 
 
 
+@media screen and (max-width: 380px) {
+    body {
+        color: black;
+    }
+    .labels {
+        opacity: 0;
+        width: 40px;
+        float: right;
+    }
+    .CosmicLogo {
+        width: 150%;
+        height: 20%;
+    }
+    .Directory {
+        width: 85%;
+        display: flex;
+        flex-direction: row;;
+        margin-bottom: 40%;
+        opacity: 1;
+        position: relative;
+        z-index: 8;
+        color: rgb(250, 250, 250);
+        top: -60px;
+        font-size: 3.2vw;
+        font-size: 30px;
+        left: 20px;
+        right: 20px;
+        margin-top: -50px;
+        
 
+    }
+    .HomeButton {
+        opacity: 1;
+        position: relative;
+        z-index: 5;
+        color: rgb(255, 255, 255);
+        top: 20px;
+        right: 20px;
+        font-size: 1.2vw;
+    }
+    .AboutButton {
+        opacity: 1;
+        position: relative;
+        z-index: 5;
+        color: rgb(255, 255, 255);
+        top: 20px;
+        right: 20px;
+        font-size: 1.2vw;
+    }
+    .CoffeeButton {
+        opacity: 1;
+        position: relative;
+        z-index: 5;
+        color: rgb(255, 255, 255);
+        top: 20px;
+        right: 20px;
+        font-size: 1.2vw;
+    }
+    .MerchButton {
+        opacity: 1;
+        position: relative;
+        z-index: 5;
+        color: rgb(255, 255, 255);
+        top: 20px;
+        right: 20px;
+        font-size: 1.2vw;
+    }
+    .LocationsButton {
+        opacity: 1;
+        position: relative;
+        z-index: 5;
+        color: rgb(255, 255, 255);
+        top: 20px;
+        right: 20px;
+        font-size: 1.2vw;
+    }
+    .RightSideHeaderBeans {
+        width: 160%;
+        height: 150%;
+    }
+    .TopRow {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .FooterImage {
+        width: 104%;
+        margin-right: -60px;
+    }
+    .TW {
+        width: 40px;
+    }
+    .FB {
+        /* margin-bottom: 15px;
+        bottom: 92px; */
+        width: 40px;
+    }
+    .IG {
+        width: 40px;
+    }
+    .productbox {
+        width: 350px;
+    }
+    .ProductsSection {
+        width: 320px;
+    }
+}
 
 
 

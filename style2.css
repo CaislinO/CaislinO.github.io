@@ -329,3 +329,34 @@
     width: 80%;
   }
 }
+
+
+@media screen and (max-width: 380px) {
+  body {
+      color: black;
+  }
+
+  .productbox {
+      width: 310px;
+      /* height: 20%; */
+  }
+  .productimg {
+    width: 290px;
+  }
+  .phoneimg {
+    width: 270px;
+  }
+  .locationbox {
+    width: 320px;
+  }
+  .Beans {
+    width: 160%;
+    height: 150%;
+  }
+  .locationbox {
+    width: 320px;
+  }
+  .LocGlassTop {
+    width: 80%;
+  }
+}
