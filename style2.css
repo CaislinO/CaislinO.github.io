@@ -212,7 +212,7 @@
 
 
 
-@media (max-width: 526px) {
+@media (max-width: 526px) and (min-width: 450px) {
   body {
       color: black;
   }
@@ -271,5 +271,61 @@
   .LocBoxes {
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media (max-width: 450px) and (min-width: 380px) {
+  body {
+      color: black;
+  }
+
+  .productbox {
+      width: 410px;
+      /* height: 20%; */
+  }
+  .productimg {
+    width: 370px;
+  }
+  .locationbox {
+    width: 460px;
+  }
+  .Beans {
+    width: 160%;
+    height: 150%;
+  }
+  .locationbox {
+    width: 410px;
+  }
+  .LocGlassTop {
+    width: 80%;
+  }
+}
+@media (max-width: 380px) {
+  body {
+      color: black;
+  }
+
+  .productbox {
+      width: 310px;
+      /* height: 20%; */
+  }
+  .productimg {
+    width: 290px;
+  }
+  .phoneimg {
+    width: 270px;
+  }
+  .locationbox {
+    width: 320px;
+  }
+  .Beans {
+    width: 160%;
+    height: 150%;
+  }
+  .locationbox {
+    width: 320px;
+  }
+  .LocGlassTop {
+    width: 80%;
   }
 }
